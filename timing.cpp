@@ -8,7 +8,7 @@ std::string longest_oreo(const std::string& s) {
 
   if(s.size() == 1) { return s; }
   //int last_char_position = 0;
-  clock_t t;
+  clock_t t; //add this line and the line below on the top of your algorith you are testing.
   t = clock();
   std::string str1 = "";
 
@@ -62,7 +62,7 @@ int vowel_count(const std::string& s) {
     if(s[i] == 'O' or s[i] == 'o') { vowels++; }
     if(s[i] == 'U' or s[i] == 'u') { vowels++; }
   }
-  t = clock() - t;
+  t = clock() - t; //add this line and the line below it at the end of your algorithm that you are testing
   cout << float( clock () - t ) /  CLOCKS_PER_SEC<< " miliseconds." << endl;
   // TODO: replace this comment, and bogus return statement, with an actual
   // implementation of the function.
