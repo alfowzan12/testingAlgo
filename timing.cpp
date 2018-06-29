@@ -150,6 +150,6 @@ int main() {
 // length n.
 
   string str1 = "hello";
-  subString1(printRandomString(n));
+  subString1(printRandomString(n)); //replace subString1 with whatever algorithm you are testing.
   return 0;
 }
