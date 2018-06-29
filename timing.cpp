@@ -34,7 +34,8 @@ std::string longest_oreo(const std::string& s) {
 
 
   }
-  t = clock() - t;
+  
+  t = clock() - t; //add this line and the line below it at the end of your algorithm that you are testing
   cout << float( clock () - t ) /  CLOCKS_PER_SEC<< " miliseconds." << endl;
   //std::cout << "str1 = " << str1 << std::endl;
 
